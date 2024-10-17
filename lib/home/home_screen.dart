@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:on_time/theming_and_colors/app_colors.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,7 +13,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           Container(
             height: 120,
-            color: AppColors.primaryColor,
+            // color: AppColors.primaryColor,
           )
         ],
       ),
